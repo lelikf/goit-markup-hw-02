@@ -192,6 +192,9 @@ body {
         color: var(--main);
 }
 
-.portfolio-buttons .portfolio-button:hover
+.portfolio-buttons .portfolio-button:hover {
+        background-color: var(--accent);
+        color: var(--background);
+}
 
 
