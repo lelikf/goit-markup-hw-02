@@ -87,9 +87,6 @@ body {
         color: var(--accent);
 }
 
-/* .contacts */
-
-
 /* .hero */
 
 .hero {
@@ -127,6 +124,8 @@ body {
         top: 440px;
         color: var(--background);
 }
+
+.button-order:hover
 
  /* footer */
 
@@ -170,6 +169,8 @@ body {
         color: var(--accent);
 }
 
+/* portfolio */
+
 .portfolio-buttons {
         list-style: none;
         font-family: inherit;
@@ -191,5 +192,6 @@ body {
         color: var(--main);
 }
 
+.portfolio-buttons .portfolio-button:hover
 
 
