@@ -177,7 +177,12 @@ nav-list .nav-link {
 }
  
  /* footer */
-.footer {
-         background: var(--title-color);
+.footer .slogan {
+        line-height: 1.5;
+        color: var(--accent);
 }
+
+ .footer {
+         background: var(--title-color);
+ }
 
