@@ -1,12 +1,12 @@
 :root {
-        --main-color: #212121;
-        --background: #FFFFFF;
-        --background-team: #F5F4FA;
-        --description: #000000;
-        --accent: #2196F3;
-        --hero: #2F303A;
-        --order: #188CE8;
-        --contacts: #757575;
+        --main-color: #2E2F42;
+        --main-light: #8E8F99;
+        --white: #FFFFFF;
+        --background-team: #F4F4FD;
+        --focused: #4D5AE5;
+        --contacts: #434455;
+        --success: #31D0AA;
+        --accent: #E7E9FC;
 }
 
 body {
