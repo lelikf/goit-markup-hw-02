@@ -150,7 +150,7 @@ nav-list .nav-link {
         color: var(--maim-color);
 }
 /* about */
-.about {
+.directions .our-directions{
         font-weight: 600;
         font-size: 36px;
         line-height: 1.11;
@@ -162,7 +162,7 @@ nav-list .nav-link {
 .team {
         background: var(--background-team);
 }
-.our-team {
+.team .team-title {
         font-weight: 600;
         font-size: 36px;
         line-height: 1.11;
@@ -170,20 +170,28 @@ nav-list .nav-link {
         text-transform: capitalize;
         color: var(--title-color);
 }
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height, or 120% */
-
-text-align: center;
-letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
+.team-list .team-members {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        /* text-align: center; */
+        color: var(--title-color);
+}
+.team-list .position {
+        font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+        
+                text-align: center;
+                letter-spacing: 0.02em;
+        
+                /* SLATE */
+        
+                color: #434455;
+}
 /* portfolio */
 .portfolio-buttons {
         list-style: none;
