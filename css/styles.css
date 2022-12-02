@@ -55,7 +55,6 @@ body {
         text-transform: uppercase;
         color: var(--background);
 }
-
 /* hidden */
 .visually-hidden {
         position: absolute;
@@ -70,8 +69,7 @@ body {
         margin: -1px;
 }
 /* naigation */
-
-.nav-list .nav-link {
+nav-list .nav-link {
         text-decoration: none;
         font-weight: 600;
         font-size: 16px;
@@ -79,7 +77,6 @@ body {
         letter-spacing: 0.02em;
         color: var(--title-color);
 }
-
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
         color: var(-maim-color);
@@ -91,9 +88,21 @@ body {
 .nav-list .nav-link.active {
         color: var(--focused);
 }
-
+/* contacts */
+.mail,
+.tel {
+        text-decoration: none;
+        font-style: normal;
+        line-height: 1.5;
+        color: var(--main-color);
+}
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+        color: var(--focused);
+}
 /* .hero */
-
 .hero {
         background: var(--title-color);
 }
@@ -107,9 +116,7 @@ body {
      
         /* text-transform: uppercase; */
 }
-
 /* .buttons */
-
 .button-order {
         /* position: absolute; */
         width: 170px;
@@ -131,39 +138,17 @@ body {
         color: var(--background);
 }
 .button-order:hover
-
- /* footer */
-
-.footer {          
-        background: var(--title-color);      
-}
-
-.mail,
-.tel {
-        text-decoration: none;
-        font-style: normal;
-        line-height: 1.5;
-        color: var(--main-color);
-}
-     
-.map:hover,
-.map:focus,
-.mail:hover,
-.mail:focus,
-.tel:hover,
-.tel:focus {
-        color: var(--focused);
-}
-
 /* features */
-
 .features-list .feature-title {
         font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
         color: var(--title-color);
 }
-
+.features-list .feature-text {
+        line-height: 1.5;                    
+        color: var(--maim-color);
+}
 /* portfolio */
 .portfolio-buttons {
         list-style: none;
@@ -190,5 +175,9 @@ body {
         background-color: var(--accent);
         color: var(--background);
 }
-
+ 
+ /* footer */
+.footer {
+         background: var(--title-color);
+}
 
