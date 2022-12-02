@@ -149,6 +149,41 @@ nav-list .nav-link {
         line-height: 1.5;                    
         color: var(--maim-color);
 }
+/* about */
+.about {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--title-color);
+}
+/* team */
+.team {
+        background: var(--background-team);
+}
+.our-team {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--title-color);
+}
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
 /* portfolio */
 .portfolio-buttons {
         list-style: none;
