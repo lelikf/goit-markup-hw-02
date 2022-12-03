@@ -175,6 +175,15 @@ body {
 .team {
         background: var(--background-team);
 }
+.team .about-team {
+        width: 264px;
+        height: 380px;
+        left: 156px;
+        top: 1783px;
+        background: var(--background);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
 .team .team-title {
         font-weight: 600;
         font-size: 36px;
@@ -254,7 +263,7 @@ body {
         line-height: 1.5;
         color: var(--accent);
 }
- .footer {
-         background: var(--title-color);
+.footer {
+        background: var(--title-color);
  }
 
