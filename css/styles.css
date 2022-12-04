@@ -216,10 +216,6 @@ body {
 }
 .projects-list .project-link {
         text-decoration: none;
-        /* width: 360px;
-        height: 300px;
-        left: 0px;
-        top: 0px;                         */
         background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
         background-blend-mode: soft-light,
         normal;
